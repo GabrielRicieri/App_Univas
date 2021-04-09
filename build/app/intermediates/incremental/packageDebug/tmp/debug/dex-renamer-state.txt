@@ -1,0 +1,4 @@
+#Thu Mar 18 15:07:49 BRT 2021
+base.0=C\:\\Users\\gabriel\\Desktop\\projetoTCC\\AppUnivas\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

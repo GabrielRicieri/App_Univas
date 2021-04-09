@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.univas_edu.app_alunos"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:image_picker] C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+15-->[:image_picker] C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[:image_picker] C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+16-->[:image_picker] C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+17
+18    <application
+18-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:2:2-10:16
+19        android:name="io.flutter.app.FlutterApplication"
+19-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:2:15-63
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\gabriel\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:2:94-128
+23        android:label="Univas Alunos" >
+23-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:2:64-93
+24        <activity
+24-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:3:3-8:14
+25            android:name="com.univas_edu.app_alunos.MainActivity"
+25-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:3:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:3:108-258
+27            android:hardwareAccelerated="true"
+27-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:3:259-293
+28            android:launchMode="singleTop"
+28-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:3:42-72
+29            android:theme="@style/LaunchTheme"
+29-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:3:73-107
+30            android:windowSoftInputMode="adjustResize" >
+30-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:3:294-336
+31            <intent-filter>
+31-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:4:4-7:20
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:5:5-57
+32-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:5:13-54
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:6:5-65
+34-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:6:15-62
+35            </intent-filter>
+36        </activity>
+37
+38        <meta-data
+38-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:9:3-66
+39            android:name="flutterEmbedding"
+39-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:9:14-45
+40            android:value="2" />
+40-->C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\android\app\src\main\AndroidManifest.xml:9:46-63
+41
+42        <provider
+42-->[:image_picker] C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+43            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+43-->[:image_picker] C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+44            android:authorities="com.univas_edu.app_alunos.flutter.image_provider"
+44-->[:image_picker] C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+45            android:exported="false"
+45-->[:image_picker] C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+46            android:grantUriPermissions="true" >
+46-->[:image_picker] C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+47            <meta-data
+47-->[:image_picker] C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+48                android:name="android.support.FILE_PROVIDER_PATHS"
+48-->[:image_picker] C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+49                android:resource="@xml/flutter_image_picker_file_paths" />
+49-->[:image_picker] C:\Users\gabriel\Desktop\projetoTCC\AppUnivas\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+50        </provider>
+51    </application>
+52
+53</manifest>
